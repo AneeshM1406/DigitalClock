@@ -2,7 +2,7 @@ from tkinter import Label, Tk
 from time import strftime 
   
 app = Tk() 
-app.title('Clock') 
+app.title('Digital Clock') 
 
 def call_time(): 
     string = strftime('%I:%M:%S %p') 
